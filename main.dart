@@ -1,6 +1,8 @@
 void main(List<String> args) {
-  int idade = 26;
-  double altura = 26.0;
-  bool geek = (idade == altura);
-  print(geek);
+  String nome = "Diogo";
+  String sobrenome = " Maciel da Cunha";
+  int idade = 21;
+  double altura = 1.77;
+  String frase = "Eu sou $nome$sobrenome, tenho $idade anos e minha altura é $altura";
+  print(frase);
 }
