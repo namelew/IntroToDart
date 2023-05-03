@@ -1,3 +1,4 @@
 void main(List<String> args) {
-  print('Hello World!');
+  int idade = 0x00001A;
+  print(idade);
 }
