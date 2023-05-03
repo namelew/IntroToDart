@@ -1,6 +1,6 @@
 void main(List<String> args) {
-  int idade = 0x00001A;
-  double altura = 76e-6;
-  print(idade);
-  print(altura);
+  int idade = 26;
+  double altura = 26.0;
+  bool geek = (idade == altura);
+  print(geek);
 }
