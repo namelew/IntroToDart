@@ -17,8 +17,8 @@ void main(List<String> args) {
     print("Conclui $i voltas");
   }
 
-  while (energia > 0) {
+   do {
     print("Mais uma repetição");
     energia -= 6;
-  }
+  } while (energia > 0);
 }
