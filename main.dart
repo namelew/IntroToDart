@@ -5,4 +5,10 @@ void main(List<String> args) {
 
   List<dynamic> listadiogo = [nome, idade, altura];
   print("Oi sou ${listadiogo[0]}, tenho ${listadiogo[1]} anos e ${listadiogo[2]} metros de altura");
+
+  if (idade >= 18) {
+    print("$nome é maior de idade");
+  } else {
+    print("$nome é menor de idade");
+  }
 }
