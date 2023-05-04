@@ -17,7 +17,8 @@ void main(List<String> args) {
     print("Conclui $i voltas");
   }
 
-   do {
+  // TODO: Organizar os laços de repetição
+  do {
     print("Mais uma repetição");
     energia -= 6;
   } while (energia > 0);
