@@ -11,4 +11,8 @@ void main(List<String> args) {
   } else {
     print("$nome é menor de idade");
   }
+
+  for (int i = 0; i < 5; i++) {
+    print("Conclui $i voltas");
+  }
 }
