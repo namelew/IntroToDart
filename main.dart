@@ -12,6 +12,10 @@ void main(List<String> args) {
     print("$nome é menor de idade");
   }
 
+  listadiogo.forEach((element) {
+    print(element);
+  });
+
   for (int i = 0; i < 5; i++) {
     print("Conclui $i voltas");
   }
